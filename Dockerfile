@@ -26,16 +26,7 @@ COPY sites-available/ /etc/apache2/sites-available
 
 
 #Enable sites
-RUN a2ensite boandlu.com.conf
-RUN a2ensite calfred.com.conf
-RUN a2ensite drpcadomicili.com.conf
-RUN a2ensite drpchosting.com.conf
-RUN a2ensite ea3eis.com.conf
-RUN a2ensite granadura.com.conf
-RUN a2ensite hashslider.com.conf
-RUN a2ensite inastanimirova.com.conf
-RUN a2ensite oncoagora.org.conf
-RUN a2ensite psicologo-en-barcelona.com.conf
+RUN a2ensite example.com.conf
 
 EXPOSE 80
 EXPOSE 443
