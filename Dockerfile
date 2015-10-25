@@ -4,7 +4,7 @@ ENV APACHE_RUN_USER www-data
 ENV APACHE_RUN_GROUP www-data
 ENV APACHE_LOG_DIR /var/log/apache2
 
-RUN apt-get update && apt-get -y install apache2 libapache2-modsecurity php5 php5-mysql wget nano
+RUN apt-get update && apt-get -y install apache2 libapache2-modsecurity php5 php5-mysql wget nano php5-gd
 
 #Install google mod_pagespeed
 RUN wget https://dl-ssl.google.com/dl/linux/direct/mod-pagespeed-stable_current_amd64.deb
